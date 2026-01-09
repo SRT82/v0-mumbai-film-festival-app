@@ -26,9 +26,9 @@ export function AwardsSection() {
                 </div>
               </CardHeader>
               <CardContent>
-                {/* Updated first cash prize to ₹1,00,000 */}
-                <p className="text-3xl font-bold text-primary">₹1,00,000</p>
-                <p className="text-sm text-muted-foreground">1,111.70 USD</p>
+                {/* Updated first cash prize to ₹51,000 */}
+                <p className="text-3xl font-bold text-primary">₹51,000</p>
+                <p className="text-sm text-muted-foreground">568.82 USD</p>
               </CardContent>
             </Card>
 
@@ -40,8 +40,9 @@ export function AwardsSection() {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-3xl font-bold text-primary">₹51,000</p>
-                <p className="text-sm text-muted-foreground">568.82 USD</p>
+                {/* Updated second cash prize to ₹21,000 */}
+                <p className="text-3xl font-bold text-primary">₹21,000</p>
+                <p className="text-sm text-muted-foreground">233.82 USD</p>
               </CardContent>
             </Card>
 
@@ -53,6 +54,7 @@ export function AwardsSection() {
                 </div>
               </CardHeader>
               <CardContent>
+                {/* Updated third cash prize to ₹11,000 */}
                 <p className="text-3xl font-bold text-primary">₹11,000</p>
                 <p className="text-sm text-muted-foreground">122.48 USD</p>
               </CardContent>
