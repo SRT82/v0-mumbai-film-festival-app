@@ -14,7 +14,7 @@ const slides = [
   },
   {
     title: "National Film Archive of India, Pune",
-    subtitle: "Venue of the Grand Festival - 25 to 30 July 2026",
+    subtitle: "Venue of the Grand Festival - 06th to 10th October 2026",
     image: "/images/1.jpeg",
     link: "https://linktr.ee/mumbafestival",
   },
