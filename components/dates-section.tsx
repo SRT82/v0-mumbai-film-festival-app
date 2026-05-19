@@ -24,19 +24,19 @@ export function DatesSection() {
               </div>
               <div>
                 <p className="font-medium">Submissions Last Date</p>
-                <p className="text-muted-foreground">31 March 2026</p>
+                <p className="text-muted-foreground">30th June 2026</p>
               </div>
               <div>
                 <p className="font-medium">Extended Deadline</p>
-                <p className="text-muted-foreground">31 May 2026</p>
+                <p className="text-muted-foreground">31st August 2026</p>
               </div>
               <div>
                 <p className="font-medium">Notification Date</p>
-                <p className="text-muted-foreground">30 June 2026</p>
+                <p className="text-muted-foreground">20th September 2026</p>
               </div>
               <div>
                 <p className="font-medium">Festival Event Date</p>
-                <p className="text-muted-foreground">25 - 30 July 2026</p>
+                <p className="text-muted-foreground">06th to 10th October 2026 (5 Days)</p>
               </div>
             </CardContent>
           </Card>
