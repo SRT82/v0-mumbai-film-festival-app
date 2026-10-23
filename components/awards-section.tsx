@@ -139,6 +139,19 @@ export function AwardsSection() {
                 <p className="text-sm text-muted-foreground">55.67 USD</p>
               </CardContent>
             </Card>
+
+            <Card className="border-primary/30 bg-gradient-to-br from-white to-primary/5 hover:shadow-xl transition-all">
+              <CardHeader>
+                <div className="mb-2 flex items-center gap-2">
+                  <Award className="h-6 w-6 text-primary" />
+                  <CardTitle>Best Student Film</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-2xl font-bold text-primary">₹5,000</p>
+                <p className="text-sm text-muted-foreground">55.67 USD</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
 
@@ -151,6 +164,7 @@ export function AwardsSection() {
             {[
               "Best Marathi Short Film",
               "Best South Indian Short Film",
+              "Best AI Film",
               "Best Cinematographer",
               "Best Film Music",
               "Best Director",
