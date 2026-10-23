@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Trophy, Award, Film, Star } from "lucide-react"
+import { Trophy, Award, Film } from "lucide-react"
 
 export function AwardsSection() {
   return (
@@ -110,53 +110,6 @@ export function AwardsSection() {
         </div>
 
         <div className="mb-12">
-          <h3 className="mb-6 text-center text-2xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent flex items-center justify-center gap-2">
-            <Star className="h-6 w-6" />
-            Special 90 Second Film Category
-          </h3>
-          <div className="grid gap-6 md:grid-cols-3 max-w-5xl mx-auto">
-            <Card className="border-accent/30 bg-gradient-to-br from-accent/10 to-white hover:shadow-xl transition-all">
-              <CardHeader>
-                <div className="mb-2 flex items-center gap-2">
-                  <Trophy className="h-7 w-7 text-yellow-500" />
-                  <CardTitle className="text-lg">1st Best Film</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-3xl font-bold text-accent">₹10,000</p>
-                <p className="text-sm text-muted-foreground">111.34 USD</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-accent/30 bg-gradient-to-br from-accent/10 to-white hover:shadow-xl transition-all">
-              <CardHeader>
-                <div className="mb-2 flex items-center gap-2">
-                  <Trophy className="h-7 w-7 text-gray-400" />
-                  <CardTitle className="text-lg">2nd Best Film</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-3xl font-bold text-accent">₹5,000</p>
-                <p className="text-sm text-muted-foreground">55.67 USD</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-accent/30 bg-gradient-to-br from-accent/10 to-white hover:shadow-xl transition-all">
-              <CardHeader>
-                <div className="mb-2 flex items-center gap-2">
-                  <Trophy className="h-7 w-7 text-amber-600" />
-                  <CardTitle className="text-lg">3rd Best Film</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-3xl font-bold text-accent">₹3,000</p>
-                <p className="text-sm text-muted-foreground">33.40 USD</p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-
-        <div className="mb-12">
           <h3 className="mb-6 text-center text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Special Category Awards
           </h3>
@@ -186,6 +139,19 @@ export function AwardsSection() {
                 <p className="text-sm text-muted-foreground">55.67 USD</p>
               </CardContent>
             </Card>
+
+            <Card className="border-primary/30 bg-gradient-to-br from-white to-primary/5 hover:shadow-xl transition-all">
+              <CardHeader>
+                <div className="mb-2 flex items-center gap-2">
+                  <Award className="h-6 w-6 text-primary" />
+                  <CardTitle>Best Student Film</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-2xl font-bold text-primary">₹5,000</p>
+                <p className="text-sm text-muted-foreground">55.67 USD</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
 
@@ -198,6 +164,7 @@ export function AwardsSection() {
             {[
               "Best Marathi Short Film",
               "Best South Indian Short Film",
+              "Best AI Film",
               "Best Cinematographer",
               "Best Film Music",
               "Best Director",

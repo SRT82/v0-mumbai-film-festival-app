@@ -13,21 +13,7 @@ export const metadata: Metadata = {
     "Mumba International Film Festival is a prestigious celebration of cinema bringing meaningful, bold, and diverse storytelling from across the world to Indian audiences.",
   generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Main%20Logo-IOnlawnZCsg2w1eXxNdj84j9ug1agh.jpg",
   },
 }
 
