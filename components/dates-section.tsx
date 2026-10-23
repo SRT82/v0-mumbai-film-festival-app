@@ -88,7 +88,6 @@ export function DatesSection() {
                 <p className="text-sm font-medium">• Feature Films (60-140 min)</p>
                 <p className="text-sm font-medium">• Documentary (1-60 min)</p>
                 <p className="text-sm font-medium">• Animation (1-60 min)</p>
-                <p className="text-sm font-medium">• 90 Second Films</p>
                 <p className="text-sm">All languages accepted</p>
                 <p className="text-sm">Open theme</p>
                 <p className="text-sm">HD/FHD/4K Quality</p>
