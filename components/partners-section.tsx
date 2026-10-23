@@ -5,7 +5,7 @@ export function PartnersSection() {
     <section className="relative bg-gradient-to-r from-blue-50 via-white to-blue-50 px-4 py-16">
       <div className="container mx-auto max-w-6xl">
         <div className="mb-12 text-center">
-          <h2 className="mb-3 bg-gradient-to-r from-primary via-blue-600 to-secondary bg-clip-text text-3xl font-bold text-transparent md:text-4xl">
+          <h2 className="mb-3 text-3xl font-bold text-blue-600 md:text-4xl">
             Official Partners
           </h2>
           <p className="mx-auto max-w-2xl leading-relaxed text-gray-600">
