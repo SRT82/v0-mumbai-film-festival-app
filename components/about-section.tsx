@@ -77,15 +77,6 @@ export function AboutSection() {
             </p>
           </div>
 
-          <div className="mt-8 text-center">
-            <p className="text-sm font-semibold text-muted-foreground mb-2">Organized by</p>
-            <p className="text-base font-bold text-foreground">Film Festival Company & Mumba Film Foundation</p>
-            <p className="text-sm text-muted-foreground mt-1">
-              Founder and Organizer: <span className="font-semibold text-foreground">Jay R. Bhosale</span>
-            </p>
-            <p className="text-sm text-muted-foreground mt-2">In Association with</p>
-            <p className="text-sm font-medium text-foreground">(MIT-WPU) Dadasaheb Phalke International Film School</p>
-          </div>
         </div>
       </div>
     </section>

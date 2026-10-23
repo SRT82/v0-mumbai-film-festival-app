@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { X } from "lucide-react"
 
@@ -61,55 +61,19 @@ const photos = [
     alt: "Festival guests, award recipients, and filmmaker conversations",
     category: "Celebrations",
   },
-  {
-    src: "/images/homepage-20background.jpeg",
-    alt: "Festival auditorium packed with audience",
-    category: "Venue",
-  },
-  {
-    src: "/images/1.jpeg",
-    alt: "Audience at National Film Archive of India",
-    category: "Venue",
-  },
-  {
-    src: "/images/5.jpeg",
-    alt: "Speaker addressing the audience",
-    category: "Events",
-  },
-  {
-    src: "/images/6.jpeg",
-    alt: "Festival attendees during screening",
-    category: "Audience",
-  },
-  {
-    src: "/images/2.jpeg",
-    alt: "Festival jury and organizers on stage",
-    category: "Team",
-  },
-  {
-    src: "/images/7.jpeg",
-    alt: "Festival participants group photo",
-    category: "Awards",
-  },
-  {
-    src: "/images/3.jpeg",
-    alt: "Award winners on stage",
-    category: "Awards",
-  },
-  {
-    src: "/images/8.jpeg",
-    alt: "Complete festival team photo",
-    category: "Team",
-  },
-  {
-    src: "/images/4.jpeg",
-    alt: "Winners receiving certificates",
-    category: "Awards",
-  },
 ]
 
 export function PhotosSection() {
   const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null)
+  const [isMounted, setIsMounted] = useState(false)
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
+
+  if (!isMounted) {
+    return null
+  }
 
   return (
     <section id="photos" className="py-16 lg:py-24">
@@ -124,7 +88,7 @@ export function PhotosSection() {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {photos.map((photo, index) => (
             <div
-              key={index}
+              key={photo.src}
               className="group relative aspect-[4/3] cursor-pointer overflow-hidden rounded-lg bg-muted"
               onClick={() => setSelectedPhoto(photo.src)}
             >
