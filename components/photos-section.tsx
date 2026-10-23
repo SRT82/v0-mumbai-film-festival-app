@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useState } from "react"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { X } from "lucide-react"
@@ -127,10 +128,12 @@ export function PhotosSection() {
               className="group relative aspect-[4/3] cursor-pointer overflow-hidden rounded-lg bg-muted"
               onClick={() => setSelectedPhoto(photo.src)}
             >
-              <img
-                src={photo.src || "/placeholder.svg"}
+              <Image
+                src={photo.src}
                 alt={photo.alt}
-                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-cover transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity group-hover:opacity-100">
                 <div className="absolute bottom-4 left-4 right-4">
@@ -151,7 +154,14 @@ export function PhotosSection() {
             <X className="h-5 w-5" />
           </button>
           {selectedPhoto && (
-            <img src={selectedPhoto || "/placeholder.svg"} alt="Festival photo" className="h-auto w-full" />
+            <Image
+              src={selectedPhoto}
+              alt="Festival photo"
+              width={1600}
+              height={1200}
+              sizes="(max-width: 1024px) 100vw, 80vw"
+              className="h-auto w-full"
+            />
           )}
         </DialogContent>
       </Dialog>
