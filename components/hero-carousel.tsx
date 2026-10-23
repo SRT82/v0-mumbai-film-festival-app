@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight } from "lucide-react"
@@ -59,7 +60,14 @@ export function HeroCarousel() {
             index === currentSlide ? "opacity-100" : "opacity-0"
           }`}
         >
-          <img src={slide.image || "/placeholder.svg"} alt={slide.title} className="h-full w-full object-cover" />
+          <Image
+            src={slide.image}
+            alt={slide.title}
+            fill
+            priority={index === 0}
+            sizes="100vw"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 p-8 text-white lg:p-16">
             <h2 className="mb-2 text-4xl font-bold text-balance lg:text-6xl drop-shadow-lg">{slide.title}</h2>
