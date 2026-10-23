@@ -79,7 +79,7 @@ export function PhotosSection() {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {photos.map((photo, index) => (
             <div
-              key={index}
+              key={photo.src}
               className="group relative aspect-[4/3] cursor-pointer overflow-hidden rounded-lg bg-muted"
               onClick={() => setSelectedPhoto(photo.src)}
             >
