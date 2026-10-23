@@ -62,9 +62,6 @@ export function Footer() {
             <span className="text-2xl font-bold text-white drop-shadow-md">MUMBA</span>
           </div>
           <p className="text-sm text-white">© 2026 ORGANIZED BY: MUMBA FILM FOUNDATION</p>
-          <p className="mt-2 text-xs text-white/80">
-            Organized by Film Festival Company &amp; Mumba Film Foundation | Founder: Jay R. Bhosale
-          </p>
         </div>
       </div>
     </footer>

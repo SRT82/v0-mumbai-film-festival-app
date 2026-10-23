@@ -61,51 +61,6 @@ const photos = [
     alt: "Festival guests, award recipients, and filmmaker conversations",
     category: "Celebrations",
   },
-  {
-    src: "/images/homepage-20background.jpeg",
-    alt: "Festival auditorium packed with audience",
-    category: "Venue",
-  },
-  {
-    src: "/images/1.jpeg",
-    alt: "Audience at National Film Archive of India",
-    category: "Venue",
-  },
-  {
-    src: "/images/5.jpeg",
-    alt: "Speaker addressing the audience",
-    category: "Events",
-  },
-  {
-    src: "/images/6.jpeg",
-    alt: "Festival attendees during screening",
-    category: "Audience",
-  },
-  {
-    src: "/images/2.jpeg",
-    alt: "Festival jury and organizers on stage",
-    category: "Team",
-  },
-  {
-    src: "/images/7.jpeg",
-    alt: "Festival participants group photo",
-    category: "Awards",
-  },
-  {
-    src: "/images/3.jpeg",
-    alt: "Award winners on stage",
-    category: "Awards",
-  },
-  {
-    src: "/images/8.jpeg",
-    alt: "Complete festival team photo",
-    category: "Team",
-  },
-  {
-    src: "/images/4.jpeg",
-    alt: "Winners receiving certificates",
-    category: "Awards",
-  },
 ]
 
 export function PhotosSection() {
