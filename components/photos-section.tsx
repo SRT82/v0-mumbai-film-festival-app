@@ -6,6 +6,61 @@ import { X } from "lucide-react"
 
 const photos = [
   {
+    src: "/images/festival-slide-1.jpeg",
+    alt: "Festival guests and filmmakers gathered at the official festival backdrop",
+    category: "Festival Moments",
+  },
+  {
+    src: "/images/festival-slide-2.jpeg",
+    alt: "Festival guests, venue, passes, and red carpet moments",
+    category: "Festival Highlights",
+  },
+  {
+    src: "/images/festival-slide-3.jpeg",
+    alt: "Filmmakers and guests speaking at festival discussions",
+    category: "Conversations",
+  },
+  {
+    src: "/images/festival-slide-4.jpeg",
+    alt: "Artists and panelists during festival sessions",
+    category: "Panels",
+  },
+  {
+    src: "/images/festival-slide-5.jpeg",
+    alt: "Festival awards, stage presentations, and guest interactions",
+    category: "Awards",
+  },
+  {
+    src: "/images/festival-slide-6.jpeg",
+    alt: "Award ceremonies and audience moments inside the festival auditorium",
+    category: "Celebrations",
+  },
+  {
+    src: "/images/festival-slide-7.jpeg",
+    alt: "Festival organizers, filmmakers, and audience members gathered in the auditorium",
+    category: "Festival Community",
+  },
+  {
+    src: "/images/festival-slide-8.jpeg",
+    alt: "Festival attendees, volunteers, and audience moments across the venue",
+    category: "Audience Moments",
+  },
+  {
+    src: "/images/festival-slide-9.jpeg",
+    alt: "Guests and speakers sharing moments at festival screenings and events",
+    category: "Guest Moments",
+  },
+  {
+    src: "/images/festival-slide-10.jpeg",
+    alt: "Festival red carpet arrivals, portraits, and venue highlights",
+    category: "Red Carpet",
+  },
+  {
+    src: "/images/festival-slide-11.jpeg",
+    alt: "Festival guests, award recipients, and filmmaker conversations",
+    category: "Celebrations",
+  },
+  {
     src: "/images/homepage-20background.jpeg",
     alt: "Festival auditorium packed with audience",
     category: "Venue",

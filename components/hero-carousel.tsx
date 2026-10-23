@@ -9,19 +9,25 @@ const slides = [
   {
     title: "Mumba International Film Festival 2026",
     subtitle: "Celebrating global cinema and emerging filmmakers - 7th Season",
-    image: "/images/homepage-20background.jpeg",
+    image: "/images/festival-slide-1.jpeg",
+    link: "https://linktr.ee/mumbafestival",
+  },
+  {
+    title: "A Festival of Shared Stories",
+    subtitle: "Filmmakers, artists, and audiences come together in Pune",
+    image: "/images/festival-slide-4.jpeg",
+    link: "https://linktr.ee/mumbafestival",
+  },
+  {
+    title: "Moments from the Festival",
+    subtitle: "Celebrating cinema, conversations, and unforgettable performances",
+    image: "/images/festival-slide-5.jpeg",
     link: "https://linktr.ee/mumbafestival",
   },
   {
     title: "National Film Archive of India, Pune",
     subtitle: "Venue of the Grand Festival - 06th to 10th October 2026",
-    image: "/images/1.jpeg",
-    link: "https://linktr.ee/mumbafestival",
-  },
-  {
-    title: "7th Season",
-    subtitle: "Awards & Cash Prizes Worth ₹1,00,000+",
-    image: "/images/5.jpeg",
+    image: "/images/festival-slide-2.jpeg",
     link: "https://linktr.ee/mumbafestival",
   },
 ]

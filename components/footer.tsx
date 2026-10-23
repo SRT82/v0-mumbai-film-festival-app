@@ -49,10 +49,10 @@ export function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-bold text-white">Partners</h3>
             <p className="mb-4 text-sm leading-relaxed text-white">
-              The official partners of the Mumba International Film Festivals: The{" "}
-              <span className="font-semibold">Film and Television Institute of India</span>, and the{" "}
-              <span className="font-semibold">National Film Archive of India (NFAI)</span> reflecting a strong
-              institutional support for independent and emerging voices in cinema.
+              Officially supported by the Ministry of Information &amp; Broadcasting, Government of India, and the
+              National Film Development Corporation (NFDC), with official partner: Film and Television Institute of
+              India (FTII) in association with The Federation of Film Societies of India (FFSI) and Venue Partner:
+              NFDC - National Film Archive of India.
             </p>
           </div>
         </div>
@@ -61,9 +61,9 @@ export function Footer() {
           <div className="mb-4">
             <span className="text-2xl font-bold text-white drop-shadow-md">MUMBA</span>
           </div>
-          <p className="text-sm text-white">Copyright © 2026 by Mumba Film Foundation. All Rights Reserved.</p>
+          <p className="text-sm text-white">© 2026 ORGANIZED BY: MUMBA FILM FOUNDATION</p>
           <p className="mt-2 text-xs text-white/80">
-            Organized by Film Festival Company & Mumba Film Foundation | Founder: Jay R. Bhosale
+            Organized by Film Festival Company &amp; Mumba Film Foundation | Founder: Jay R. Bhosale
           </p>
         </div>
       </div>

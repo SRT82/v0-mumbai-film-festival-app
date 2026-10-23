@@ -1,39 +1,35 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from "next/image"
+
+const organizerProfiles = [
+  {
+    src: "/images/organizers-leadership.jpg",
+    alt: "Founder and festival director profiles for the Mumba Film Festival",
+  },
+  {
+    src: "/images/organizers-committee.jpg",
+    alt: "Honourable core committee and jury members of the Mumba Film Festival",
+  },
+]
 
 export function OrganizersSection() {
   return (
     <section className="bg-muted py-16 lg:py-24">
       <div className="container mx-auto px-4">
-        <h2 className="mb-12 text-center text-3xl font-bold text-balance lg:text-4xl">Festival Organizers</h2>
+        <h2 className="mb-10 text-center text-3xl font-bold text-balance lg:mb-12 lg:text-4xl">Festival Organizers</h2>
 
-        <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
-          <Card>
-            <CardHeader>
-              <CardTitle>Organized by</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-2">
-              <p className="font-medium">Film Festival Company</p>
-              <p className="font-medium">Mumba Film Foundation</p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle>Founder and Organizer</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="font-medium">Jay R. Bhosale</p>
-            </CardContent>
-          </Card>
-
-          <Card className="md:col-span-2">
-            <CardHeader>
-              <CardTitle>In Association with</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="font-medium">(MIT-WPU) Dadasaheb Phalke International Film School</p>
-            </CardContent>
-          </Card>
+        <div className="mx-auto flex max-w-6xl flex-col gap-8">
+          {organizerProfiles.map((profile) => (
+            <div key={profile.src} className="overflow-hidden rounded-xl border bg-background shadow-sm">
+              <Image
+                src={profile.src}
+                alt={profile.alt}
+                width={2048}
+                height={1366}
+                className="h-auto w-full"
+                sizes="(max-width: 1280px) 100vw, 1152px"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>
