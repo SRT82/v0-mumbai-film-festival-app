@@ -36,6 +36,31 @@ const photos = [
     category: "Celebrations",
   },
   {
+    src: "/images/festival-slide-7.jpeg",
+    alt: "Festival organizers, filmmakers, and audience members gathered in the auditorium",
+    category: "Festival Community",
+  },
+  {
+    src: "/images/festival-slide-8.jpeg",
+    alt: "Festival attendees, volunteers, and audience moments across the venue",
+    category: "Audience Moments",
+  },
+  {
+    src: "/images/festival-slide-9.jpeg",
+    alt: "Guests and speakers sharing moments at festival screenings and events",
+    category: "Guest Moments",
+  },
+  {
+    src: "/images/festival-slide-10.jpeg",
+    alt: "Festival red carpet arrivals, portraits, and venue highlights",
+    category: "Red Carpet",
+  },
+  {
+    src: "/images/festival-slide-11.jpeg",
+    alt: "Festival guests, award recipients, and filmmaker conversations",
+    category: "Celebrations",
+  },
+  {
     src: "/images/homepage-20background.jpeg",
     alt: "Festival auditorium packed with audience",
     category: "Venue",
